@@ -1,0 +1,65 @@
+.image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-content {
+  position: absolute;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.heading-1 {
+  color: #002d5b;
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+  font-family: none;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card-main-div {
+  margin: 3rem 0 0 0;
+}
+
+.card-head {
+  color: #1c165c;
+  font-family: none;
+  font-weight: 700;
+  text-align: center;
+  font-size: x-large;
+}
+
+.card-content {
+  color: #57667e;
+  font-family: rubik, sans-serif;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.logo {
+  height: 17rem;
+  width: 100%;
+}
+
+.card:hover {
+  /* transform: scale(1.2); */
+  background-color: #000a2d;
+}
+
+.card:hover h5 {
+  background-color: #000a2d;
+  color: white;
+}
+
+.card:hover p {
+  color: white;
+}

@@ -1,0 +1,33 @@
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+body {
+    min-height: 1200px;
+}
+
+nav {
+    background: #eaebec;
+    min-height: 85px;
+}
+
+.folio-logo{
+    height: 3rem;
+    width: 18rem;
+}
+
+.nav-items{
+    font-weight: 700;
+    font-size: 19px;
+    color: black !important;
+	margin: 0 13px 0 0;
+}
+
+.nav-items:hover {
+    color: red !important;
+}

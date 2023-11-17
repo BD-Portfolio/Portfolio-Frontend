@@ -1,0 +1,37 @@
+.image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-content {
+  position: absolute;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.heading-1 {
+  color: #002d5b;
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+  font-family: none;
+}
+
+.card-style {
+  cursor: pointer;
+}
+
+.hover-effect:hover {
+  color: black;
+  border: 1px solid black;
+}
+
+.domain {
+  color: darkcyan !important;
+  font-size: 1rem !important;
+}

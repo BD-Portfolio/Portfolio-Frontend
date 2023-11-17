@@ -1,0 +1,59 @@
+<div class="image-div">
+  <img src="assets\common-bg.webp" class="responsive" width="600" height="400">
+  <div class="heading-content">
+    <h1 class="heading-1">Welcome to Technofolio</h1>
+  </div>
+</div>
+
+<div class="jumbotron jumbotron-fluid jumbotron-div">
+  <div class="container jumbotron-container">
+    <h3 class="">Please fill this form to visit portfolio</h3><br>
+    <form>
+      <div class="form-row">
+        
+        <div class="col-2"></div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-top: 10px;">
+          <label for="" style="float: left; margin-left: 2px;">Full Name</label><span style="color: red; float: left;">*</span>
+          <input type="text" class="form-control" placeholder="Full Name">
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-top: 10px;">
+          <label for="" style="float: left; margin-left: 2px;">Email Id</label><span style="color: red; float: left;">*</span>
+          <input type="text" class="form-control" placeholder="Email Id">
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <!-- <br> -->
+      <div class="form-row">
+        <div class="col-2"></div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-top: 10px;">
+          <label for="" style="float: left; margin-left: 2px;">Company Name</label><span style="color: red; float: left;">*</span>
+          <input type="text" class="form-control" placeholder="Company Name">
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-top: 10px;">
+          <label for="" style="float: left; margin-left: 2px;">Company Location</label><span style="color: red; float: left;">*</span>
+          <input type="text" class="form-control" placeholder="Company Location">
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <!-- <br> -->
+      <div class="form-row">
+        <div class="col-2"></div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-top: 10px;">
+          <label for="" style="float: left; margin-left: 2px;">Designation</label><span style="color: red; float: left;">*</span>
+          <input type="text" class="form-control" placeholder="Designation">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary" style="margin-top: 2rem;" [routerLink]="['/dashboard']">Submit</button>
+      <div class="row" style="justify-content: center; margin-top: 1rem;">
+        <div class="col-12" style="width: fit-content;">
+          <p>If you have already filled this form earlier once, please direct visit here..</p>
+          <a [routerLink]="['/visitor-sign-in']">Portfolio</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<app-footer></app-footer>
+
+<ngx-ui-loader [hasProgressBar]="false" fgsColor="#ec5b53"></ngx-ui-loader>

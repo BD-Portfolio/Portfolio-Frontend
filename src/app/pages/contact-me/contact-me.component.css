@@ -1,0 +1,113 @@
+.image-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .heading-content {
+    position: absolute;
+  }
+  
+  .responsive {
+    width: 102%;
+    height: auto;
+  }
+  
+  .heading-1 {
+    color: #002d5b;
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-family: none;
+  }
+  
+  .head-para {
+    font-size: 4vw;
+    color: #000a2d;
+    font-weight: 600;
+    font-family: serif;
+  }
+  
+  .content-div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .content-body {
+    display: flex;
+    /* justify-content: center; */
+  }
+
+  .icon-style{
+      width: fit-content;
+  }
+  
+  .highlight {
+    border-left: 2px solid #ff5f13;
+    width: 70%;
+  }
+  
+  .highlight-content {
+    font-family: rufina, serif;
+    color: #000a2d;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .content-data{
+      font-family: rubik,sans-serif;
+      color: #10285d;
+      font-size: 1rem;
+      font-weight: 400;
+  }
+  
+  .head{
+      margin-top: 1rem;
+  }
+
+  .fa-home {
+    color: #8a8a8a;
+  }
+
+  .fa-mobile{
+    color: #8a8a8a;
+  }
+
+  .fa-envelope{
+    color: #8a8a8a;
+  }
+
+  .fa-linkedin-square{
+    color: #8a8a8a;
+  }
+
+  .fa-linkedin{
+    color: black;
+  }
+
+  .content-para {
+    font-family: rubik, sans-serif;
+    color: black;
+    font-size: 1rem;
+    line-height: 30px;
+    width: fit-content;
+    margin-top: 1rem;
+  }
+
+.content-1{
+    margin-left: 4px;
+}
+
+.content-2{
+    margin-left: 14px;
+    margin-top: 2vw;
+}
+
+.content-3{
+    margin-left: 8px;
+}

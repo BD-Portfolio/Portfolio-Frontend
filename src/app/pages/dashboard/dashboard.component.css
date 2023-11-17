@@ -1,0 +1,401 @@
+.image-div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heading-content {
+    position: absolute;
+    margin-left: 8vw;
+  }
+  
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  
+  .solution-span {
+    color: #ec5b53;
+    font-size: 2vw;
+    width: fit-content;
+  }
+  
+  .heading-1 {
+    color: #002d5b;
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-family: none;
+  }
+  
+  .heading-2 {
+    color: #002d5b;
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-family: none;
+  }
+  
+  .paragraph-value{
+    font-family: rubik,sans-serif;
+    width: 34vw;
+    color: #464d65;
+    font-size: 1vw;
+    line-height: 2vw;
+    font-weight: 400;
+  }
+  
+  .content-main-div{
+    margin-top: 4vw;
+    width: 100%;
+  }
+  
+  .left-heading-1{
+    font-size: 2rem;
+    color: #000a2d;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .left-paragraph-1{
+    font-family: rubik,sans-serif;
+    color: #10285d;
+    font-size: 1rem;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .left-paragraph-2{
+    font-family: rubik,sans-serif;
+    color: #10285d;
+    font-size: 1rem;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .right-heading-1{
+    font-size: 2rem;
+    color: #000a2d;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .right-paragraph-1{
+    color: #464d65;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .right-paragraph-2{
+    color: #000a2d;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: underline;
+    line-height: 30px;
+    cursor: pointer;
+    font-family: rubik,sans-serif;
+    line-height: 30px;
+    font-weight: 600;
+    word-break: break-all;
+    text-align: center;
+  }
+  
+  .services-div{
+    font-size: 4vw;
+    display: block;
+    color: #10285d;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .trap-div{
+    margin-top: 4rem;
+  }
+  
+  #trapezoid1 {
+    width: 20vw;
+    height: 20vw;
+    -webkit-clip-path: polygon(0 0, 100% 20%, 100% 80%, 0% 100%);
+    clip-path: polygon(0 0, 100% 20%, 100% 80%, 0% 100%);
+    background: linear-gradient(to bottom, #ffcc99 0%, #ff6600 100%);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 4vw;
+    font-weight: 700;
+  }
+  
+  #trapezoid2 {
+    width: 18vw;
+    height: 20vw;
+    -webkit-clip-path: polygon(0 0, 100% 20%, 100% 80%, 0% 100%);
+    clip-path: polygon(0 0, 100% 22%, 100% 80%, 0% 100%);
+    background: linear-gradient(to bottom, #ffcc99 0%, #ff6600 100%);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 4vw;
+    font-weight: 700;
+  }
+  
+  .card{
+    cursor: pointer;
+  }
+  
+  .card-main-div{
+    margin: 3rem 0 0 0;
+  }
+  
+  .card-head{
+    color: #1c165c;
+    font-family: none;
+    font-weight: 700;
+    text-align: center;
+    font-size: x-large;
+  }
+  
+  .card-content{
+    color: #57667e;
+    font-family: rubik,sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  
+  .logo{
+    height: 17rem;
+    width: 100%;
+  }
+  
+  .card:hover {
+    /* transform: scale(1.2); */
+    background-color: #000a2d;
+  }
+  
+  .card:hover h5{
+    background-color: #000a2d;
+    color: white;
+  }
+  
+  .card:hover p{
+    color: white;
+  }
+  
+  
+  .available-heading {
+    color: #ec5b53;
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: none;
+    width: fit-content;
+  }
+  
+  .img-responsive {
+    width: 100%;
+    height: 35vw;
+  }
+  
+  .mail-span{
+    color: #1c165c;
+    text-decoration: underline;
+    font-size: 2vw;
+    width: fit-content;
+  }
+  
+  .companies-heading{
+    font-size: 5vw;
+    display: block;
+    color: darkgoldenrod;
+    font-family: ui-rounded;
+    font-weight: 600;
+  }
+  
+  .work-heading{
+    font-size: 4vw;
+    font-family: rufina,serif;
+    color: #000a2d;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  
+  .details-p{
+    font-family: rubik,sans-serif;
+    /* width: 34vw; */
+    color: #10285d;
+    font-size: 1vw;
+    line-height: 2vw;
+    font-weight: 400;
+  }
+  
+  .image-form-div {
+    display: flex;
+    align-items: center;
+    height: 30rem;
+  }
+  
+  .img-form-responsive {
+    width: 100%;
+    height: 35vw;
+    height: 30rem;
+  }
+  
+  .main-form{
+    /* width: 35vw; */
+  }
+  
+  .form-divs{
+    height: 3rem;
+  }
+  
+  .form-inputs{
+    color: #a3a3a3;
+    font-weight: 500;
+  }
+  
+  .form-button{
+    background: #ec5b53;
+    width: 100%;
+    height: 4rem;
+    padding: 10px 20px;
+    border: 0;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 0;
+  }
+  
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Show 4th slide on md if col-md-4*/
+    .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.3333%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 768px) {
+    /* Show 3rd slide on sm if col-sm-6*/
+    .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -50%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+  }
+  @media (min-width: 576px) {
+    .carousel-item {
+        margin-right: 0;
+    }
+    /* show 2 items */
+    .carousel-inner .active + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* farthest right hidden item must be also positioned for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+  }
+  /* MD */
+  @media (min-width: 768px) {
+    /* show 3rd of 3 item slide */
+    .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+  }
+  /* LG */
+  @media (min-width: 991px) {
+    /* show 4th item */
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    /* Show 5th slide on lg if col-lg-3 */
+    .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction //t - previous slide direction last item animation fix */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+  }

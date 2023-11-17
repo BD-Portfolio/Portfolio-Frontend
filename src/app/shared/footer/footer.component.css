@@ -1,0 +1,27 @@
+.logo-row {
+  justify-content: center;
+}
+
+.folio-logo {
+  height: 20rem;
+  width: 21rem;
+}
+
+.mail-span-footer {
+  font-size: 3vw;
+  color: #fff;
+  font-weight: 400;
+}
+
+.mail-row {
+  text-align: center;
+}
+
+.copyright-row {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.copyright-content{
+    color: white;
+}
